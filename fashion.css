@@ -1,0 +1,180 @@
+/* * {
+	border: 1px solid rgba(0,0,0,0.3);
+}
+*/
+.main {
+	/*max-width: 710px;*/
+	min-width: 450px;
+	text-align: center;
+	display: block;
+}
+
+.header {
+	height: 600px;
+	background: url("pics/lovedogs.jpg") no-repeat center;
+	background-size: cover;
+	border: 2px solid rgba(255,153,204,0.6);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+/* The menu stiling starts*/
+.container {
+	max-width: 100%;
+	text-align: center;
+	margin-top: 0px;
+    /*overflow: hidden;*/
+    background-color: rgba(255,153,204,0.6);
+}
+
+.centrator{
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+nav {
+	text-align: center;
+}
+
+.menu {
+	margin: 0;
+	text-align: center;
+	padding: 15px 0;
+}
+
+.menu > li {
+	display: inline-block;
+	padding: 0;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.menu > li > a  {
+	color: white;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	padding-right: 20px;
+	background: url("pics/fleuron.png") no-repeat right;
+    background-size: 20px;
+    text-decoration: none;
+}
+
+.list {
+	display: block;
+	color: red;
+	font-family: Garamond, serif;
+	font-size: 25px;
+	font-weight: bold;
+	width: 368px;
+	margin: 0 auto;
+	margin-top: 200px;
+}
+
+.list > ul > li {
+	margin-bottom: 100px;
+}
+
+.list > ul {
+	list-style-image: url("pics/fleuron.png");
+}
+
+/* The menu stiling ends*/
+
+.intro {
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 72px;
+}
+
+#logo {
+	font-size: 50px;
+	text-align: center;
+	font-family: times, serif;	
+	margin-top: 13px;
+	padding-bottom: 65px;
+}
+
+
+#describe {
+	padding-top: 9px;
+}
+
+
+.form {
+	margin: 0 auto; 
+    width:250px;
+    background-color: rgba(255,153,204,0.6);
+}
+
+/*The 2nd div*/
+.presentation {
+	text-align: justify;
+	/*margin: 0 auto;*/
+	/*width: 710px;*/
+}
+
+.presentation > h3 {
+	text-align: center;
+}
+
+.line {
+	display: block;
+	margin: auto;
+	border-bottom: 3px solid black;
+	width: 250px;
+	height: 5px; 
+}
+
+
+/*The 3r div -products*/
+.products {
+	display: block;	
+	margin: auto;
+	width: 710px;
+	border: 2px solid rgba(255,153,204,0.6);
+}
+
+.prod {
+	padding-top: 10px;
+	text-align: center;
+	display: inline-block;
+	width: 200px;
+	height: 300px;
+	margin-left: 14px;
+	margin-right: 20px;
+}
+
+.prod > img {
+	width: 100%;
+	height: auto;
+	max-height: 200px;
+}
+/*Testimoniale*/
+.testimonials {
+	text-align: center;
+	/*margin: 0 auto;*/
+	/*width: 710px;*/
+}
+
+
+
+/*the subscribe*/
+.subscribe {
+	/*margin: 0 auto; */
+    /*width: 712px;*/
+    background-color: rgba(255,153,204,0.6);
+    text-align: center;
+}
+
+.pic > img {
+ 	width: 200px;
+ 	height: auto;
+}
+footer {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+}
